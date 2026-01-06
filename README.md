@@ -13,12 +13,12 @@ A theoretical framework is developed to investigate nonlinear pulsatile wave pro
 ## Repository Contents
 
 ### 1. Theoretical Framework
-* **File:** `notebooks/PulsatileWavePropagation.ipynb`
+* **File:** `PulsatileWavePropagation.ipynb`
 * **Description:** Implements the core mathematical model of the study. It solves the governing equations for the microstructure-aware fluid model, generates regime maps, and analyzes waveform distortion phenomena.
 * **Key Physics:** Covers the coupling of Womersley flow with relaxation-driven microstructure evolution.
 
 ### 2. Physiological Validation
-* **File:** `notebooks/ConsistencyWithMIMIC-III.ipynb`
+* **File:** `ConsistencyWithMIMIC-III.ipynb`
 * **Description:** Provides physiological context using open-access data from the MIMIC-III Waveform Database. It processes arterial blood pressure (ABP) measurements to validate theoretical diagnostics.
 * **Outputs:** Spectral analysis of in vivo waveforms demonstrating low-order spectral dominance and harmonic content.
 
