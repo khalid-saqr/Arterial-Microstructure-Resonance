@@ -1,14 +1,14 @@
-# A Resonant Coupling Regime in Pulsatile Arterial Flow
+# Resonant Coupling Regime in Pulsatile Arterial Flow
 
 This repository contains the source code and data analysis scripts associated with the manuscript:
 
-**"A resonant coupling regime in pulsatile arterial flow induced by blood microstructure relaxation"**
+**"Microstructure-Induced Anisotropic Resonance in Compliant Arteries"**
 
 **Author:** Khalid Saqr  
 **Affiliation:** Department of Mechanical Engineering, College of Engineering and Technology, Arab Academy for Science, Technology and Maritime Transport, Alexandria, Egypt.  
 **ORCID:** 0000-0002-3058-2705
 ## Abstract
-A theoretical framework is developed to investigate nonlinear pulsatile wave propagation in compliant tubes when blood is modeled as a continuum endowed with a dynamically evolving red-blood-cell microstructure tensor. By coupling multi-harmonic Womersley flow with an anisotropic viscous stress and a relaxation-driven microstructure evolution law, the analysis reveals a distinct coupling regime near $De_{A} \approx 1$ and a structural frequency bottleneck at intermediate Womersley numbers ($\alpha \approx 5-10$). In this regime, microstructural relaxation synchronizes with pulsatile forcing, leading to maximized energy dissipation and pronounced waveform distortion phenomena that are structurally absent in Newtonian descriptions. Regime maps derived from reduced solution-state and phase-state formulations identify three fundamental limits: an isotropic Newtonian regime, a quasi-steady frozen-microstructure regime, and an intermediate resonant coupling zone governed by the parameter set $(\alpha, De_{A}, \chi)$. To place these theoretical diagnostics in physiological context, open-access in vivo arterial pressure measurements are analyzed.
+The mechanistic link between cellular alignment and macroscopic transport is established through a nonlinear reduced-order framework for pulsatile flow. Blood is modeled with a dynamic microstructure tensor $\bm{A}$, inducing an anisotropic viscous stress that interacts with wall compliance. Analysis reveals a fundamental coupling governed by the microstructural Deborah number $De_A = \omega_0 T_A$. A distinct anisotropic resonance is identified at $De_A \approx 1$, where microstructural relaxation synchronizes with the cardiac cycle to maximize energy dissipation and waveform distortion. By delineating isotropic ($De_A \ll 1$), resonant, and frozen ($De_A \gg 1$) regimes, the spectral complexity observed in \emph{in vivo} data is physically explained, providing a tractable continuum alternative to phenomenological closures in cardiovascular mechanobiology.
 
 ## Repository Contents
 
@@ -89,7 +89,7 @@ pip install numpy scipy matplotlib pandas wfdb jupyterlab
 
 If you use this code or the theoretical framework in your research, please cite the accompanying paper:
 
-> Saqr, K. (2026). A resonant coupling regime in pulsatile arterial flow induced by blood microstructure relaxation. *[Journal Name/Preprint]*.
+> Saqr, K. (2026). Microstructure-Induced Anisotropic Resonance in Compliant Arteries *[preprint]*.
 
 ## License
 
